@@ -1,0 +1,26 @@
+Reviews:
+
+review_id (primary key)
+product_id (foreign key referencing products table)
+customer_id (foreign key referencing customers table)
+review_date
+rating
+review_text
+Categories:
+
+category_id (primary key)
+category_name
+Product_Categories:
+
+product_id (primary key)
+category_id (foreign key referencing categories table)
+Coupons:
+
+coupon_id (primary key)
+code
+discount_amount
+expiration_date
+Order_Coupons:
+
+order_id (primary key)
+coupon_id (foreign key referencing coupons table)
