@@ -4,8 +4,7 @@ review_id (primary key)
 product_id (foreign key referencing products table)
 customer_id (foreign key referencing customers table)
 review_date
-rating
-review_text
+ratingreview_text
 Categories:
 
 category_id (primary key)
