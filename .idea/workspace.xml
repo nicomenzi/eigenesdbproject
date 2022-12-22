@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40100e16-3005-446a-b284-f0ef702efe0b" name="Changes" comment="setup basic project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="40100e16-3005-446a-b284-f0ef702efe0b" name="Changes" comment="add Customer.java which is a implementation of the Customer Table">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/CustomerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="com.haulmont.jpb.JpaRepository" />
       </list>
     </option>
   </component>
@@ -101,7 +102,7 @@
       <workItem from="1671118468045" duration="1785000" />
       <workItem from="1671690897126" duration="1666000" />
       <workItem from="1671717052778" duration="161000" />
-      <workItem from="1671721304575" duration="2210000" />
+      <workItem from="1671721304575" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1671118492416</created>
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671722295677</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Customer.java which is a implementation of the Customer Table">
+      <created>1671723646179</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671723646179</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="setup basic project" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup basic project" />
+    <MESSAGE value="add Customer.java which is a implementation of the Customer Table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Customer.java which is a implementation of the Customer Table" />
   </component>
 </project>
