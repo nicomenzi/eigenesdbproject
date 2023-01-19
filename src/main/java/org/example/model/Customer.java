@@ -8,85 +8,75 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "customer")
+@Table(name = "customers")
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private int id;
+    @Column(name = "customer_id")
+    private Long customerId;
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "customer_name")
+    private String customerName;
 
-    @Column(name = "email")
-    private String email;
+    @Column(name = "customer_email")
+    private String customerEmail;
 
-    @Column(name = "password")
-    private String password;
+    @Column(name = "customer_password")
+    private String customerPassword;
 
-    @Column(name = "address")
-    private String address;
+    @Column(name = "customer_address")
+    private String customerAddress;
 
-    @Column(name = "phone")
-    private String phone;
+    @Column(name = "customer_phone")
+    private String customerPhone;
 
-    public Customer() {
+    //Getters and setters
+
+    public Long getCustomerId() {
+        return customerId;
     }
 
-    public Customer(int id, String name, String email, String password, String address, String phone) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.password = password;
-        this.address = address;
-        this.phone = phone;
+    public void setCustomerId(Long customerId) {
+        this.customerId = customerId;
     }
 
-    public int getId() {
-        return id;
+    public String getCustomerName() {
+        return customerName;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
-    public String getName() {
-        return name;
+    public String getCustomerEmail() {
+        return customerEmail;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCustomerEmail(String customerEmail) {
+        this.customerEmail = customerEmail;
     }
 
-    public String getEmail() {
-        return email;
+    public String getCustomerPassword() {
+        return customerPassword;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setCustomerPassword(String customerPassword) {
+        this.customerPassword = customerPassword;
     }
 
-    public String getPassword() {
-        return password;
+    public String getCustomerAddress() {
+        return customerAddress;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setCustomerAddress(String customerAddress) {
+        this.customerAddress = customerAddress;
     }
 
-    public String getAddress() {
-        return address;
+    public String getCustomerPhone() {
+        return customerPhone;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setCustomerPhone(String customerPhone) {
+        this.customerPhone = customerPhone;
     }
 }

@@ -5,21 +5,34 @@ product_id (foreign key referencing products table)
 customer_id (foreign key referencing customers table)
 review_date
 ratingreview_text
-Categories:
 
+Categories:
 category_id (primary key)
 category_name
-Product_Categories:
+category_description
 
+Products:
 product_id (primary key)
+product_name
+product_description
+product_price
+product_inventory
 category_id (foreign key referencing categories table)
-Coupons:
 
-coupon_id (primary key)
-code
-discount_amount
-expiration_date
-Order_Coupons:
+Customers:
+customer_id (primary key)
+customer_name
+customer_email
+customer_password
+customer_address
+customer_phone
 
+Orders:
 order_id (primary key)
-coupon_id (foreign key referencing coupons table)
+customer_id (foreign key referencing customers table)
+order_date
+order_status
+product_id (foreign key referencing products table)
+
+
+
