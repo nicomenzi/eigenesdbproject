@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40100e16-3005-446a-b284-f0ef702efe0b" name="Changes" comment="add CustomerController.java with getAllCustomers mapping which returns all customers in the Database">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Product.java" afterDir="false" />
+    <list default="true" id="40100e16-3005-446a-b284-f0ef702efe0b" name="Changes" comment="rework all the model classes because of errors">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/models.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/models.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/CustomerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,9 @@
       <workItem from="1671721304575" duration="3255000" />
       <workItem from="1673527359618" duration="26000" />
       <workItem from="1673534415765" duration="2697000" />
-      <workItem from="1674139902622" duration="1677000" />
+      <workItem from="1674139902622" duration="2867000" />
+      <workItem from="1674587525453" duration="1263000" />
+      <workItem from="1674588818233" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1671118492416</created>
@@ -150,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671724113569</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rework all the model classes because of errors">
+      <created>1674141621084</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674141621084</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +170,8 @@
     <MESSAGE value="setup basic project" />
     <MESSAGE value="add Customer.java which is a implementation of the Customer Table" />
     <MESSAGE value="add CustomerController.java with getAllCustomers mapping which returns all customers in the Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CustomerController.java with getAllCustomers mapping which returns all customers in the Database" />
+    <MESSAGE value="rewor all the model classes because of errors" />
+    <MESSAGE value="rework all the model classes because of errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="rework all the model classes because of errors" />
   </component>
 </project>
