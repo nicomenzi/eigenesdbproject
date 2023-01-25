@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40100e16-3005-446a-b284-f0ef702efe0b" name="Changes" comment="create order controller">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ProductController.java" afterDir="false" />
+    <list default="true" id="40100e16-3005-446a-b284-f0ef702efe0b" name="Changes" comment="create product controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +116,8 @@
       <workItem from="1674139902622" duration="2867000" />
       <workItem from="1674587525453" duration="1263000" />
       <workItem from="1674588818233" duration="1392000" />
-      <workItem from="1674590230946" duration="2054000" />
+      <workItem from="1674590230946" duration="2881000" />
+      <workItem from="1674667815729" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1671118492416</created>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674591388522</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="create product controller">
+      <created>1674593866500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674593866500</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="create the repos for all tables" />
     <MESSAGE value="create customer controller" />
     <MESSAGE value="create order controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="create order controller" />
+    <MESSAGE value="create product controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="create product controller" />
   </component>
 </project>
