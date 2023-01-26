@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40100e16-3005-446a-b284-f0ef702efe0b" name="Changes" comment="remove bugs in repos">
+    <list default="true" id="40100e16-3005-446a-b284-f0ef702efe0b" name="Changes" comment="add address model and address controller">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/AddressRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/models.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/models.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
       <list>
         <option value="com.haulmont.jpb.JpaRepository" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -125,6 +125,8 @@
       <workItem from="1674588818233" duration="1392000" />
       <workItem from="1674590230946" duration="2881000" />
       <workItem from="1674667815729" duration="2044000" />
+      <workItem from="1674714430124" duration="1397000" />
+      <workItem from="1674727107517" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1671118492416</created>
@@ -221,6 +223,7 @@
     <MESSAGE value="create order controller" />
     <MESSAGE value="create product controller" />
     <MESSAGE value="remove bugs in repos" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove bugs in repos" />
+    <MESSAGE value="add address model and address controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="add address model and address controller" />
   </component>
 </project>

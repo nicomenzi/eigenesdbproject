@@ -1,9 +1,7 @@
 package org.example.controller;
 
 import org.example.model.Category;
-import org.example.model.Customer;
 import org.example.repository.CategoryRepository;
-import org.example.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

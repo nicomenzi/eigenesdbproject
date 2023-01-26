@@ -1,11 +1,3 @@
-Reviews:
-
-review_id (primary key)
-product_id (foreign key referencing products table)
-customer_id (foreign key referencing customers table)
-review_date
-ratingreview_text
-
 Categories:
 category_id (primary key)
 category_name

@@ -1,11 +1,6 @@
 package org.example.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "customers")
@@ -24,8 +19,9 @@ public class Customer {
     @Column(name = "customer_password")
     private String customerPassword;
 
-    @Column(name = "customer_address")
-    private String customerAddress;
+    @OneToOne
+    @JoinColumn(name = "address_id")
+    private Address customerAddress;
 
     @Column(name = "customer_phone")
     private String customerPhone;
@@ -64,13 +60,6 @@ public class Customer {
         this.customerPassword = customerPassword;
     }
 
-    public String getCustomerAddress() {
-        return customerAddress;
-    }
-
-    public void setCustomerAddress(String customerAddress) {
-        this.customerAddress = customerAddress;
-    }
 
     public String getCustomerPhone() {
         return customerPhone;
@@ -78,5 +67,13 @@ public class Customer {
 
     public void setCustomerPhone(String customerPhone) {
         this.customerPhone = customerPhone;
+    }
+
+    public Address getCustomerAddress() {
+        return customerAddress;
+    }
+
+    public void setCustomerAddress(Address customerAddress) {
+        this.customerAddress = customerAddress;
     }
 }
