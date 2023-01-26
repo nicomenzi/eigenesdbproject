@@ -34,7 +34,7 @@ public class CustomerController {
     }
 
     @PutMapping("/{id}")
-    public Customer update(@PathVariable Long id, @RequestBody Customer customer) {
+    public Customer update(@PathVariable int id, @RequestBody Customer customer) {
         customer.setCustomerId(id);
         return customerRepository.save(customer);
     }
